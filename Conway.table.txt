@@ -1,0 +1,36 @@
+# conway's game of life
+#
+# states: 2
+# rules: 21
+# variables: 5
+# format: C N NE E SE S SW W NW C'
+#
+n_states:2
+neighborhood:Moore
+symmetries:rotate8
+var a={0,1}
+var b={0,1}
+var c={0,1}
+var d={0,1}
+var e={0,1}
+a000000000
+a100000000
+a11000000a
+a10100000a
+a10010000a
+a10001000a
+a111000001
+a110100001
+a110010001
+a110001001
+a110000101
+a1111bcde0
+a111b1cde0
+a111bc1de0
+a111bcd1e0
+a11bc11de0
+a11bcd11e0
+a11b1c1de0
+a11b1cd1e0
+a11bc1d1e0
+a1b1c1d1e0
